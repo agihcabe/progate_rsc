@@ -1,11 +1,17 @@
 @media (max-width: 800px) {
-	.flex-container {
+	.blok {
 		flex-direction: column;
 	}
 }
 
 @media (max-width: 670px) {
-	.flex-container {
+	.blok {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 370px) {
+	.blok {
 		flex-direction: column;
 	}
 }
