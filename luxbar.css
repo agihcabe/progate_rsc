@@ -47,7 +47,7 @@
   height: 58px; }
 
 .luxbar-img {
-	visibility: hidden;
+	visibility: visible;
  }
 
 .luxbar-menu-left .luxbar-navigation, .luxbar-menu-left .luxbar-header {
