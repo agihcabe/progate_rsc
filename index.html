@@ -6,11 +6,30 @@
   <title>Proyek Tim A01 - Progate RSC Batch II 2020 Frontend</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body class="blok">
 <div>
 	<!-- Bagian Header -->
+	<!-- Navigasi -->
+	<header id="luxbar" class="luxbar-fixed">
+    <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+    <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-green">
+        <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+				<img src="LOGO.png" width="100px" height="50px">
+                <a href="#" class="luxbar-brand">Tim A01-RSC2FE-2020</a>
+                <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>
+            <li class="luxbar-item"><a href="#">Item 1</a></li>
+            <li class="luxbar-item"><a href="#">Item 2</a></li>
+            <li class="luxbar-item"><a href="#">Item 3</a></li>
+            <li class="luxbar-item"><a href="#">Item 4</a></li>
+        </ul>
+    </div>
+	</header>
 	<!-- Bagian Slideshow -->
 	<div class="slideshow-container">
 		<div class="mySlides fade">
@@ -37,16 +56,7 @@
 		<span class="dot" onclick="currentSlide(2)"></span>
 		<span class="dot" onclick="currentSlide(3)"></span>
 	</div>
-	<!-- Bagian Tautan Navigasi (navbar)-->
-	<div id="menu">
-		<img src="LOGO.png" width="100px" height="50px">
-		<p>Tim A01-RSC2FE-2020</p>
-		<a href="#top">Header</a>
-		<a href="#welcome">Welcome</a>
-		<a href="#pelajaran">Language</a>
-		<a href="#tim">Team</a>
-		<a href="#end">Footer</a>
-	</div>
+
 <!-- Bagian Main (Utama) -->
 	<div id="welcome" class="blok-utama">
 	<div class="slide-in-left">
@@ -117,5 +127,6 @@
 
 </div>
 <script src="slideshow.js"></script>
+<script src="mobile-menu.js"></script>
 </body>
 </html>
