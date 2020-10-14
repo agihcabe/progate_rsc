@@ -47,8 +47,7 @@
   height: 58px; }
 
 .luxbar-img {
-	visibility: visible;
- }
+	visibility: hidden; }
 
 .luxbar-menu-left .luxbar-navigation, .luxbar-menu-left .luxbar-header {
   justify-content: flex-start; }
@@ -142,8 +141,7 @@
     justify-content: flex-end; }
   
   .luxbar-img {
-	visibility: hidden;
- }
+	visibility: visible; }
 
   .luxbar-hamburger {
     display: none; }
