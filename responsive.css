@@ -1,17 +1,44 @@
-@media (max-width: 800px) {
-	.blok {
-		flex-direction: column;
-	}
+@media (max-width: 450px) {
+/* Style the navigation menu */
+#menu {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
 }
 
-@media (max-width: 670px) {
-	.blok {
-		flex-direction: column;
-	}
+/* Hide the links inside the navigation menu (except for logo/home) */
+#menu #myLinks {
+  display: none;
 }
 
-@media (max-width: 370px) {
-	.blok {
-		flex-direction: column;
-	}
+/* Style navigation menu links */
+#menu a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+#menu a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+#menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 }
